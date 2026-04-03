@@ -1,26 +1,85 @@
-# Taskz
+# Taskz - Task Management Application
 
-an effective way to manage our daily tasks. In our day-to-day tasks we have some tasks that are very important and also considering the deadline also urgent. So we need to pick those tasks whenever we get the chance. Again some tasks are not urgent but they are important for us. So what can we do we can categorize our tasks into 4 separate categories. 
+## Overview
+Taskz is a simple and effective task management application designed to help users organize their daily activities based on priority and urgency.
 
-- Urgent & Important
+In everyday life, tasks vary in importance and urgency. Taskz applies a structured approach by categorizing tasks into four distinct types, allowing users to focus on what truly matters and manage their time more efficiently.
 
-- Urgent but Not Important
+---
 
-- Not Urgent but Important
+## Task Categories
+Taskz uses a priority matrix inspired by time management principles:
 
-- Not Urgent & Not Important
+- Urgent & Important  
+- Urgent but Not Important  
+- Not Urgent but Important  
+- Not Urgent & Not Important  
+
+This classification helps users decide which tasks to prioritize, schedule, delegate, or eliminate.
+
+---
 
 ## Features
+- View all tasks in a centralized list  
+- Add new tasks easily  
+- Edit existing tasks  
+- Categorize tasks based on urgency and importance  
+- Filter tasks by category  
+- Swipe to delete tasks  
 
-- All tasks where you can see all available tasks.
-- Add new task or edit existing task.
-- Filter task by task type which mentioned above.
-- Swipe task to remove.
+---
 
 ## Tools and Architecture
 
-- [RiverPod](https://pub.dev/packages/riverpod) for the state management
-- [sqflite](https://pub.dev/packages/sqflite) for Sqlite Database
-- [uuid](https://pub.dev/packages/uuid) for generating unique task id
-- [Scrollable positined list](https://pub.dev/packages/scrollable_positioned_list) 
+### State Management
+- Riverpod  
+  Used for efficient and scalable state management.
 
+### Local Database
+- sqflite  
+  Provides persistent local storage using SQLite.
+
+### Utilities
+- uuid  
+  Generates unique identifiers for each task.
+
+### UI Components
+- Scrollable Positioned List  
+  Enables smooth and efficient list navigation.
+
+---
+
+## Installation
+
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/taskz.git
+2. Navigate to the project directory:
+cd taskz
+
+3. Install dependencies:
+flutter pub get
+
+4.Run the application:
+flutter run
+
+## Usage
+Create tasks and assign them to one of the four categories
+Filter tasks based on priority
+Update tasks as needed
+Remove tasks using swipe gesture
+
+## Future Improvements
+Cloud synchronization
+Notifications and reminders
+Task deadlines and scheduling
+User authentication
+Analytics and productivity tracking
+
+## Author
+Mohamed Moncef Amor
+Embedded Systems & IoT Engineer
+
+## License
+All rights reserved © Mohamed Moncef Amor
